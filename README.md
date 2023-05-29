@@ -20,7 +20,7 @@ ynew=sgf/max(sgf);
 eogF = ynew;
 ```
 
-Teager–Kaiser energy operator to obtain EMG Bursts:
+*-Teager–Kaiser energy operator to obtain EMG Bursts:-*
 ```
 for i=2:length(eogF)-1
     eogF(i) = ynew(i)^2 - ynew(i-1)*ynew(i+1);
@@ -28,7 +28,7 @@ end
     
 ```
 
-Wavelet transform to get swallow patterns and RMS for burst detection:
+*-Wavelet transform to get swallow patterns and RMS for burst detection:-*
 ```
 [c,l] = wavedec(eogF,7,'sym4'); % 8 level decomposition  
 for t=1:7
