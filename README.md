@@ -1,6 +1,6 @@
 # SFAToolbox
 
-## Main folders: :file_folder: 
+## Main files: :file_folder: 
 
 #*GUI:*
 * SFAToolbox.m :  .m file of the graphical user interface.
