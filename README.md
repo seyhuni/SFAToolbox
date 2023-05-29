@@ -37,3 +37,6 @@ end
 A8=A(:,7);
 rmsSwallows = sqrt(movmean(A8_.^2, 2500));
 ```
+_**Data File:**_ 
+* sampledata.mat: sample recording. 
+
