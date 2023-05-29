@@ -3,10 +3,10 @@
 ## Main folders: :file_folder: 
 
 *GUI:*
-* SFAToolbox.m :  
-* SFAToolbox.fig : 
+* SFAToolbox.m :  .m file of the graphical user interface.
+* SFAToolbox.fig : Graphical user interface.
 
-* Filtering: 
+*-Filtering:-* 
 
 ```
 Band    = (2 / SR) * [45, 55];
